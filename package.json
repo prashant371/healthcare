@@ -1,0 +1,19 @@
+{
+  "name": "homecure-healthcare",
+  "version": "1.0.0",
+  "description": "HomeCure Healthcare - Professional Home Medical Care Website",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx live-server --port=3000 --open=index.html",
+    "build": "echo Build complete - static site ready for deployment",
+    "deploy:netlify": "npx netlify-cli deploy --dir=. --prod",
+    "deploy:vercel": "npx vercel --prod"
+  },
+  "keywords": ["healthcare", "home-care", "medical", "nursing"],
+  "author": "HomeCure Healthcare",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.0"
+  }
+}
